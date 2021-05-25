@@ -5,7 +5,7 @@
 3. __CRITICAL__: add a file called called `<organism>_database/.env`. It must be in `/<organism>_database` and it must be called `.env`. It must include at least the key value pairs included below, with correct values for your use case. Here is an example (__repeat__: the keys below are required for the site to function): 
 
 ```
-DJANGO_SECRET_KEY=3AQ3YnmgnODOBPkXwIj3ybzu9t75c_VVFDyJNj2Kwbo
+DJANGO_SECRET_KEY=klj123k4j12lk3j4
 ALLOWED_HOST=["0.0.0.0", "localhost", "127.0.0.1"]
 DJANGO_AWS_ACCESS_KEY_ID=""
 DJANGO_AWS_SECRET_ACCESS_KEY=""
