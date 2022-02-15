@@ -1,6 +1,6 @@
 site_name: Brentlab RNASeq Database(s)
 site_description: Documentation on the Brentlab RNAseq databases
-repo_url: https://github.com/BrentLab/rnaseq_databases_documentation.git
+repo_url: https://github.com/BrentLab/rnaseq_databases_documentation
 site_dir: site
 copyright: Copyright &copy; 2020, <a href="https://github.com/cmatKhan">cmatKhan</a>.
 dev_addr: 0.0.0.0:8001
