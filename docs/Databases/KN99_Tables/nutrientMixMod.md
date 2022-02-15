@@ -4,7 +4,6 @@ Entries in g/L. Valid entries are all real numbers in g/L and represent change f
 
 The combination of 'component' columns should be unique.
 
-
 Name                                      | Type                 | Required  
 :-----------------------------------------|:--------------------:|:---------:
     nutrientMixModName                    | string               | yes
@@ -47,7 +46,6 @@ Name                                      | Type                 | Required
     yeastExtract                          | float                | yes, default 0
     phenolRed_Na                          | float                | yes, default 0
     pyruvicAcid_Na                        | float                | yes, default 0
-
 
 * * *
 **[KEY]** and **[REQUIRED]** columns should be included in every sheet. **[OPTIONAL]** columns must be included when there are samples which would have non-empty entries in those columns.

@@ -2,7 +2,6 @@
 
 All components are in g/L and must be >= 0. 
 
-
 Name                                      | Type                 | Required  
 :-----------------------------------------|:--------------------:|:---------:
     baseNutrientName                      | string               | yes
