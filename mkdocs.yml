@@ -35,6 +35,11 @@ nav:
   - Databases:
     - General Specifications: 'Databases/GeneralSpecs.md'
     - KN99 Tables:
+      - 'Databases/KN99_Tables/baseNutrientMix.md'
+      - 'Databases/KN99_Tables/nutrientMixMod.md'
+      - 'Databases/KN99_Tables/AminoAcids.md'
+      - 'Databases/KN99_Tables/GrowthConditions.md'
+      - 'Databases/KN99_Tables/strain.md'
       - 'Databases/KN99_Tables/BioSample.md'
       - 'Databases/KN99_Tables/RnaSample.md'
       - 'Databases/KN99_Tables/S1cdnaSample.md'
