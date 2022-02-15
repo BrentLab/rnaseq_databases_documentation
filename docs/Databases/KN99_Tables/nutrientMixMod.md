@@ -1,4 +1,4 @@
-# BaseNutrientMix
+# NutrientMixModifications
 
 Entries in g/L. Valid entries are all real numbers in g/L and represent change from the “base” that the record references. Note that there will be a record with name ‘none’ in the “base” table which will allow a user to enter an entirely ‘custom’ nutrient here.  
 
