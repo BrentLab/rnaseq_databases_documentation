@@ -6,17 +6,24 @@ The primary key for this table is bioSampleNumber
 
 - If you are entering data, or using data, from this table, and you notice a column that is poorly defined in any way (eg, it is never used, should have defined choices and does not, etc), then post an issues report on the appropriate github repository.
 
+## Update Instructions
+
+- Never include a the primary key column (in this case bioSampleNumber) -- that is automatically populated by the database.
+
+- If there is a __default entry__ for a given field, you do not need to include the field in a table used to update the database from `brentlabRnaSeqTools`. Otherwise, the field is required to exist in the table you wish to send to the database.
+
 Name                                 | Type                 | Required  
 :------------------------------------|:--------------------:|:---------:
 bioSampleNumber                      | int                  | Yes (Primary Key)
 harvestDate                          | datetime             | Yes
 harvester                            | string               | Yes
 experimentDesign                     | string               | Yes
-experimentObservations               | string               | Yes
+experimentObservations               | string               | Yes, default 'none'
 bioSampleObservations                | string               | yes, default 'none'
-strain                               | string               | Yes
+strain                               | string               | Yes -- foreign key to `strain` table
 timePoint                            | float                | Yes
 innocpH                              | float                | Yes, default -1
+gcid                                 | integer              | Yes -- foreign key to `growthCondition` table
 
 * * *
 **[KEY]** and **[REQUIRED]** columns should be included in every sheet. **[OPTIONAL]** columns must be included when there are samples which would have non-empty entries in those columns.
@@ -41,6 +48,10 @@ innocpH                              | float                | Yes, default -1
 
 **[OPTIONAL]** This is a free text entry field meant to record anything about this sample, specifically pertaining to this table's data, that does not fit into other fields. This __should not be used for storing any information pertinent to experimental design or the strain__.
 
+## strain
+
+Unique strain identifier, eg TDY12345. This is a foreign key to the strain table. Check to make sure your strain is already in the strain table. If it is not, please ask for it to be added.
+
 ## timePoint
 
 **[OPTIONAL]** A decimal number in minutes (if whole minutes, there is no need to add the decimal point).
@@ -49,3 +60,7 @@ The time between the treatment and the sample collection. Use -1 (neg1 as an int
 ## innocpH
 
 pH at innoculation. Default is -1, meaning un-measured.
+
+## gcid
+
+An integer entry which corresponds to a record in the `growthCondition` table. This is the foreign key to the `growthCondition` table
