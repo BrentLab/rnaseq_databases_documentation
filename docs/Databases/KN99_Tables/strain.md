@@ -1,13 +1,5 @@
-    strain = models.CharField(primary_key = True, max_length=8)
-    baseStrain = models.CharField(max_length=200, default = "none")  # added to differentiate lab control from clinical strain
-    genotype1 = models.CharField(max_length=200, null = False, blank = False)
-    perturbation1 = models.CharField(max_length=200, default = "none")
-    marker1 = models.CharField(max_length=200, default = "none")
-    genotype2 = models.CharField(max_length=200, default = "none")
-    perturbation2 = models.CharField(max_length=200, default = "none")
-    marker2 = models.CharField(max_length=200, default = "none")
 
-# AminoAcids
+# Strain
 
 The primary key for this table is aaid
 
