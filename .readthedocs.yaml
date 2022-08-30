@@ -13,4 +13,4 @@ mkdocs:
 python:
   version: 3.8
   install:
-    - Pipfile.lock
+    - requirements.txt
