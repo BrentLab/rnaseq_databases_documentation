@@ -22,7 +22,7 @@ marker1              | string               | yes, choices
 genotype2            | string               | yes, default 'none'
 perturbation2        | string               | yes, default 'none'
 marker2              | string               | yes, choices
-
+strainNotes          | string               | yes, default 'none'
 
 * * *
 **[KEY]** and **[REQUIRED]** columns should be included in every sheet. **[OPTIONAL]** columns must be included when there are samples which would have non-empty entries in those columns.
@@ -76,3 +76,8 @@ One of the following
 * none (default)
 * NAT
 * G418
+
+## strainNotes
+
+Things we should know about a given strain. If the strain is bad, use 
+`bad_strain`. Default 'none'

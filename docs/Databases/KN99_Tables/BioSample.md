@@ -14,7 +14,6 @@ harvester                            | string               | Yes
 experimentDesign                     | string               | Yes
 experimentObservations               | string               | Yes
 bioSampleObservations                | string               | yes, default 'none'
-baseStrain                           | string               | Yes
 strain                               | string               | Yes
 timePoint                            | float                | Yes
 innocpH                              | float                | Yes, default -1
@@ -40,7 +39,7 @@ innocpH                              | float                | Yes, default -1
 
 ## bioSampleObservations
 
-**[OPTIONAL]** This is a free text entry field meant to record anything about this sample, specifically pertaining to this table's data, that does not fit into other fields. This __should not be used for storing any information pertinent to experimental design__.
+**[OPTIONAL]** This is a free text entry field meant to record anything about this sample, specifically pertaining to this table's data, that does not fit into other fields. This __should not be used for storing any information pertinent to experimental design or the strain__.
 
 ## timePoint
 
