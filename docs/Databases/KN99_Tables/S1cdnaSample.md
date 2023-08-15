@@ -49,6 +49,7 @@ Name                                                | Type       | Required
 - SuperScriptIII
 - E7420L -  NEBNext Ultra Directional RNA Library Prep Kit for Illumina
 - If a concentration other than typical is used, list it as such: E7420L_0.5X
+- E7760L - NEBNext Ultra II Directional RNA Library Prep Kit for Illumina
 
 ## roboticS1Prep
 

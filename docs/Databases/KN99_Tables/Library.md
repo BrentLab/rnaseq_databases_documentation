@@ -57,6 +57,7 @@ Use only the first part of the descrition below, eg E7420L. Datatype must be a s
 - SolexaPrep - homebrew kit used prior to 10-25-2015 (best current estimate)
 - E7420L -  NEBNext Ultra Directional RNA Library Prep Kit for Illumina
 - If a concentration other than typical is used, list it as such: E7420L_0.5X
+- E7760L - NEBNext Ultra II Directional RNA Library Prep Kit for Illumina
 
 ## roboticLibraryPrep
 
